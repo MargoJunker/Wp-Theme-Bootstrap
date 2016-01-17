@@ -37,7 +37,7 @@ h4{
     font-size: 18px;
 }
 
-button, input, .btn, a.btn {
+button, input, .btn, a.btn{
     -webkit-font-smoothing: antialiased;;
     text-rendering: optimizeLegibility;
     color: white;
@@ -47,20 +47,34 @@ button, input, .btn, a.btn {
     font-weight: bold;
 }
 
+button.btn:focus{
+    outline:none !important;
+}
+
 .btn-danger{
     background-color: #dd5638;
     border-color: #d95131;
 }
 
-img {
+.btn-success{
+    background: #79b044;
+    border: none;
+}
+
+.btn-success:hover{
+    background: #6a9b3d;
+    border-color: #6a9b3d;
+}
+
+img{
     max-width: 100%;
 }
 
-.modal-content {
+.modal-content{
     background: url("../img/tile.jpg");
 }
 
-.badge.social {
+.badge.social{
     background: #ccc;
     font-size: 24px;
     height: 40px;
@@ -75,32 +89,32 @@ img {
     color: white;
 }
 
-.badge.social.twitter:hover {
+.badge.social.twitter:hover{
     background: #55acee;
 }
 
-.badge.social.facebook:hover {
+.badge.social.facebook:hover{
     background: #3b5998;
 }
 
-.badge.social.gplus:hover {
+.badge.social.gplus:hover{
     background: #db4b39;
 }
 
-blockquote {
+blockquote{
     padding: 0;
     border: none;
     font-style: italic;
     text-align: left;
 }
 
-blockquote cite {
+blockquote cite{
     display: block;
     color: #777;
     margin: 15px 0 0 0;
 }
 
-blockquote:before {
+blockquote:before{
     display: none;
 }
 
@@ -108,6 +122,7 @@ blockquote:before {
 
 #hero{
     background: url("../img/hero-bg.jpg") 50% 0 repeat fixed;
+    background-size: cover;
     min-height: 500px;
     padding: 40px 0;
     color: white;
@@ -115,7 +130,7 @@ blockquote:before {
     text-rendering: optimizeLegibility;
 }
 
-#hero article {
+#hero article{
     width: 100%;
     text-align: center;
 }
@@ -139,7 +154,7 @@ blockquote:before {
     vertical-align: top;
 }
 
-#price-timeline .price.active {
+#price-timeline .price.active{
     background: #dd5638;
 }
 
@@ -263,14 +278,34 @@ section h3{
     text-align: center;
 }
 
-.testimonial {
+.testimonial{
     margin-bottom: 60px;
 }
 
-.testimonial img {
+.testimonial img{
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
+}
+
+#signup{
+    text-align: center;
+    background: url("../img/hipster-stuff.jpg") center center repeat fixed;
+    background-size: cover;
+    color: white;
+    padding: 140px 0;
+}
+
+#signup h2{
+    font-weight: normal;
+}
+
+#signup h2 strong{
+    border-bottom: 2px solid #dd5638;
+}
+
+#signup .btn{
+    font-size: 24px;
 }
 
 /* === CUSTOM ICON SPRITES === */
