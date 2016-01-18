@@ -102,7 +102,7 @@ get_header(); ?>
         </div><!-- row -->
     </div><!-- container -->
 </section><!-- boost-income -->
-<!-- Done in last lecture -->
+
 <!-- WHO BENEFITS
 ================================================== -->
 <section id="who-benefits">
