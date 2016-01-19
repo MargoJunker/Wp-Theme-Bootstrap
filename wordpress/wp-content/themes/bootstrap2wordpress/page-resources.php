@@ -20,6 +20,7 @@ $thumbnail_url      = wp_get_attachment_url( get_post_thumbnail_id( $post->ID ) 
     </section>
 
 <?php }; ?>
+
 <!-- MAIN CONTENT
 ============================================ -->
 <div class="container">
