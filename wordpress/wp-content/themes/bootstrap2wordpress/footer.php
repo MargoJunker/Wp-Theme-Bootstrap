@@ -31,7 +31,7 @@
     <div class="container">
         <div class="col-sm-3">
             <p>
-                <a href="/"><img src="assets/img/logo.png" alt="Bootstrap to WordPress"></a>
+                <a href="/"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/logo.png" alt="Bootstrap to WordPress"></a>
             </p>
         </div><!-- col -->
         <div class="col-sm-6">
